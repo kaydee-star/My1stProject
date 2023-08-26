@@ -1,0 +1,2 @@
+This is my 1st code to test git repo
+We are learning Devops slowly slowly.
