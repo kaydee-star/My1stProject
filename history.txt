@@ -296,3 +296,370 @@ This file contain history from all servers for git :>
   294  vi filefortest.txt 
   295  vi history.txt
   296  history >> history.txt 
+__________________________________________________________________________
+History of 2nd server
+
+
+    1  passwd
+    2  su
+    3  apt-get install docker.io
+    4  apt-get installed
+    5  apt-get --installed
+    6  apt-get -- installed
+    7  apt list --installed
+    8  docker
+    9  docker ps
+   10  useradd kd -m
+   11  ls
+   12  cd /home/
+   13  ls
+   14  cd k
+   15  cd kd/
+   16  ls
+   17  cd /home/kaydee/
+   18  ls
+   19  passwd kd
+   20  su kd
+   21  ssh 22.0.0.11
+   22  ls
+   23  ssh
+   24  ssh 22.0.0.11
+   25  ls
+   26  mv test newtest
+   27  mkdir kaydee
+   28  ls
+   29  mv kaydee new folder
+   30  ls
+   31  mv kaydee new
+   32  ls
+   33  grep /shub/etc/passwd
+   34  apt list --upgradable
+   35  apt update
+   36  apt list --upgradable
+   37  apt upgrade all -y
+   38  apt upgrade -y
+   39  apt list --upgradable
+   40  apt upgrade -y
+   41  apt purge docker.io
+   42  rm -rf /var/lib/docker/buildkit
+   43  apt purge docker.io
+   44  sudo apt purge docker.io
+   45  apt list --installed
+   46  apt list --installed | grep docker
+   47  clear
+   48  groupaddIT
+   49  groupadd IT
+   50  ls
+   51  cat /etc/group
+   52  useradd user1
+   53  useradd -M  user2,user3,user4
+   54  useradd -M  user2 , user3 , user4
+   55  useradd -m user2
+   56  ls
+   57  mv new devops
+   58  ls
+   59  cd devops/
+   60  ls
+   61  vim test.txt
+   62  vi test.txt
+   63  cat vi
+   64  cat test.txt
+   65  ls
+   66  touch test.txt
+   67  ls
+   68  vim test.txt 
+   69  apt install vim
+   70  vim test.txt 
+   71  ls
+   72  cd ~
+   73  ls
+   74  cd /home/
+   75  ls
+   76  cd user2/
+   77  ls
+   78  cd /home/k
+   79  cd /home/kd/
+   80  ls
+   81  cd /home/kaydee/
+   82  ls
+   83  cd Desktop/
+   84  ls
+   85  grep IT logs.txt 
+   86  grep -i it logs.txt 
+   87  grep IT logs.txt 
+   88  grep -i -r mo logs.txt 
+   89  grep trying logs.txt 
+   90  grep -i trying logs.txt 
+   91  cd /var/
+   92  ls
+   93  cd opt/
+   94  ls
+   95  cd ..
+   96  cd lo
+   97  cd log
+   98  ls
+   99  cat syslog 
+  100  cp syslog /home/kaydee/Desktop/ log.txt
+  101  cp syslog /home/kaydee/Desktop/ >log.txt
+  102  cd /home/kaydee/Desktop/
+  103  ls
+  104  cat logs.txt
+  105  cat -n logs.txt 
+  106  tac logs.txt 
+  107  grep TRACE logs.txt 
+  108  grep kernel logs.txt 
+  109  grep failed logs.txt 
+  110  man awk
+  111  awk logs.txt 
+  112  awk *3 logs.txt 
+  113  grep filter logs.txt 
+  114  grep failed logs.txt 
+  115  awk '/failed/ {print $1,$3,$5}' logs.txt 
+  116  awk '/failed/ {print NR $1,$3,$5}' logs.txt 
+  117  awk '/failed/ {print $1,$3,$5}' logs.txt 
+  118  awk '/failed/ {print NR $1,$3,$5}' logs.txt 
+  119  awk '/failed/ {print $1,$3,$5}' logs.txt 
+  120  awk '/failed/ {print NR $1,$3,$5}' logs.txt 
+  121  awk '/failed/ {print NR,$1,$3,$5}' logs.txt 
+  122  awk 'NR>=20 && NR<=50 /failed/ {print NR,$1,$3,$5}' logs.txt 
+  123  awk 'NR>=20 && NR<=50 && /failed/ {print NR,$1,$3,$5}' logs.txt 
+  124  awk 'NR>=1 && NR<=20 && /failed/ {print NR,$1,$3,$5}' logs.txt 
+  125  awk '/failed/ {print NR,$1,$3,$5}' logs.txt 
+  126  awk '/failed/ {print NR,$1,$3,$5}' logs.txt  | head 10
+  127  awk '/failed/ {print NR,$1,$3,$5}' logs.txt  | head -10
+  128  awk '/failed/ {print NR,$1,$3,$5}' logs.txt  | tail-20
+  129  awk '/failed/ {print NR,$1,$3,$5}' logs.txt  | less-20
+  130  awk '/failed/ {print NR,$1,$3,$5}' logs.txt  | tail
+  131  awk '/failed/ {print NR,$1,$3,$5}' logs.txt 
+  132  awk '/failed/ {print NR,$1,$3,$5}' logs.txt >filtered.log.txt
+  133  ls
+  134  cat filtered.log.txt 
+  135  vi filtered.log.txt 
+  136  find filtered.log.txt 
+  137  find *txt
+  138  cd
+  139  find /home/kaydee/ *Des
+  140  uname 
+  141  uname -a
+  142  ssh 22.0.0.14
+  143  hostname 
+  144  hostname Ubuntu
+  145  man init
+  146  init -h
+  147  init -help
+  148  init help
+  149  init 1
+  150  hostname Ubuntu
+  151  init 6
+  152  apt-get update
+  153  apt-get upgarde
+  154  apt-get upgrade
+  155  apt-get install net-tools
+  156  cat /etc/gshadow
+  157  cat /etc/group
+  158  cat /etc/gshadow
+  159  cat /etc/group
+  160  cat /etc/gshadow
+  161  cat /etc/group -n
+  162  cat /etc/gshadow -n
+  163  cd boot
+  164  ls
+  165  cd /boot
+  166  ls
+  167  ll
+  168  cd grub/
+  169  ll
+  170  cd ..
+  171  ll
+  172  cd /etc/
+  173  ls
+  174  ll
+  175  ll -n
+  176  ll -N
+  177  cd skel/
+  178  ls
+  179  ll
+  180  cat -a .bashrc
+  181  ll
+  182  cat .bash
+  183  cat .bashrc 
+  184  ll
+  185  finger user
+  186  apt install finger
+  187  finger user
+  188  date
+  189  uname -a
+  190  df
+  191  df -h
+  192  df -H
+  193  uname -a
+  194  top
+  195  du
+  196  du -h
+  197  du -H
+  198  free
+  199  free -H
+  200  free -h
+  201  free -s N
+  202  free -N
+  203  free -s
+  204  free -s 5
+  205  free -c 2
+  206  free -c 5
+  207  free -c n
+  208  free -c N
+  209  free -s
+  210  free -V
+  211  free --help
+  212  free -t
+  213  free -th
+  214  free -tm
+  215  slurm
+  216  man slurm
+  217  htop
+  218  snap install htop
+  219  htop
+  220  snap install docker.io
+  221  apt-get install docker.io
+  222  docker
+  223  git
+  224  git -v
+  225  git --version
+  226  apt-get install git
+  227  git
+  228  iftop
+  229  apt install iftop
+  230  iftop
+  231  nagios
+  232  apt install nagios
+  233  man systemd
+  234  whatis systemd
+  235  whereis date
+  236  whereis man
+  237  ifconfig
+  238  history
+  239  apt get update
+  240  apt-get update
+  241  apt-get upgrade
+  242  which git
+  243  git --versiom
+  244  git --version
+  245  git config --global
+  246  git config --global user.name "kd"
+  247  git config --global user.email "karmvirdagar.kd@gmail.com"
+  248  git config --list
+  249  ls -l /home/
+  250  su kd
+  251  cd 
+  252  ls
+  253  mkdir Git
+  254  rmdir Git/
+  255  mkdir git
+  256  ls
+  257  cd git/
+  258  mkdir project {1,2,3}
+  259  ls
+  260  mkdir project{1,2,3}
+  261  ls
+  262  rmdir 1,2,3
+  263  rmdir 1
+  264  rmdir 2
+  265  rmdir 3
+  266  ls
+  267  git init project
+  268  cd project
+  269  git init
+  270  touch code1.txt
+  271  ls
+  272  git add code1.txt 
+  273  ls
+  274  cd ..
+  275  ls -ltr
+  276  cd project
+  277  ls
+  278  git status
+  279  git commit code1.txt 
+  280  git commit -m"adding command"
+  281  git status
+  282  man git
+  283  ls
+  284  rm code1.txt 
+  285  ls
+  286  git restore code1.txt
+  287  ls
+  288  git status
+  289  git log
+  290  git logs
+  291  git log
+  292  cd ..
+  293  git log
+  294  cd project
+  295  ls
+  296  hostname ctl
+  297  hostnamectl
+  298  ls -l /bin
+  299  cd /
+  300  ls
+  301  cd sbin
+  302  ls
+  303  ls -l
+  304  su
+  305  systemctl status docker
+  306  ifconfig
+  307  apt-get install git
+  308  ls
+  309  cd Documents/
+  310  ls
+  311  hostname Ubuntu
+  312  -
+  313  su
+  314  git branch
+  315  cd /home/
+  316  ls
+  317  cd kd
+  318  ls
+  319  cd..
+  320  cd ..
+  321  ls 
+  322  cd kaydee/
+  323  ls
+  324  cd Desktop/
+  325  ls
+  326  cd test/
+  327  ls
+  328  git
+  329  clear
+  330  git status
+  331  cd ..
+  332  git status
+  333  ls
+  334  cd git
+  335  ls
+  336  git push origin master
+  337  ls
+  338  git remote add origin https://github.com/karmvirdagar/my1stproject.git
+  339  git push origin master
+  340  git log
+  341  ls
+  342  git add .
+  343  git commit -m "New files"
+  344  git status
+  345  git log
+  346  git push origin master
+  347  git show 36ee8abc424f5bf6936
+  348  git push origin master
+  349  ls
+  350  git add .
+  351  git commit -m python.py 
+  352  git branch
+  353  git push origin master
+  354  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
+  355  git push origin master
+  356  git pull origin master
+  357  git config pull.rebase false
+  358  git branch
+  359  git pull origin master
+  360  ls
+  361  cat history.txt 
+  362  vi history.txt 
+  363  history >> history.txt 
