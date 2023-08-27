@@ -1,5 +1,0 @@
-This is my 1st code to test git repo
-We are learning Devops slowly slowly.
-This is new code we write today please check it
-If this is wrking fine thats great otherwise you can delete it.
-Have a great day 

@@ -1,3 +1,0 @@
- This is s test file to check brach in git
-also it contains history of all servers
-
