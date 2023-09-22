@@ -1,1 +1,3 @@
 This is my text file from Ubuntu Desktop from Laptop.
+git pull origin master --allow-unrelated-histories  > command to merge when giving nrelated histories error
+
